@@ -2,7 +2,7 @@
 
 [![GoDoc](https://godoc.org/github.com/Rompei/food2fork?status.png)](https://godoc.org/github.com/Rompei/food2fork)
 
-Food2Fork API client implemented with Golang.
+Food2Fork API client implemented with Golang.  
 API document: [http://food2fork.com/about/api](http://food2fork.com/about/api)
 
 ##Usage
@@ -46,7 +46,7 @@ func main() {
            panic(err)
         }
         fmt.Printf("Title: %v\n", recipe.Title)
-            for _, ing := range recipe.Ingredients {
+        for _, ing := range recipe.Ingredients {
             fmt.Printf("Ingredients: %v\n", ing)
         }
     }
