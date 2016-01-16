@@ -68,7 +68,7 @@ Ingredients: 8 slices bacon
 
 ##Referenced software
 
-This software design was referenced to  [ChimeraCoder/anaconda](https://github.com/ChimeraCoder/anaconda)
+The software design of this OSS was referenced to  [ChimeraCoder/anaconda](https://github.com/ChimeraCoder/anaconda)
 
 ##License
 
