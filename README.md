@@ -40,8 +40,8 @@ func main() {
 
     if len(recipes) > 0 {
 
-    // GetRecipe returns a recipe specialized by recipe id.
-    recipe, err := api.GetRecipe(recipes[0].RecipeID)
+        // GetRecipe returns a recipe specialized by recipe id.
+        recipe, err := api.GetRecipe(recipes[0].RecipeID)
         if err != nil {
            panic(err)
         }
